@@ -5,6 +5,6 @@
 * [Emmet](emmet.md)
 * [标签](tag.md)
 * [文档](document.md)
+* [路径](path.md)
 * [样式](styles.md)
-* [Path](path.md)
 
