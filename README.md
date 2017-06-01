@@ -1,4 +1,8 @@
 # HTML
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+在浏览器上显示的页面，我们先不管生成这些页面的后端是怎么实现的，现在你需要先了解组成这个页面的基本元素。一个页面主要用到了 HTML，CSS，还有 JavaScript，HTML 组织页面上的内容，CSS 为内容添加样式，JavaScript 提供了页面上的交互功能。这是 Web 开发者的工具箱里必备的三样东西。现在我们先去解决掉最最基础的 HTML。
+
+HTML 是一种标记语言，它不是程序语言。也就是 HTML 里面定义了一些 “标记” （markup），有时候也称为标签（tag）或者元素（element）。使用它们去标记页面上的具体的内容，一个段落就用段落标记（&lt;p&gt;），一张图像就用图像标记（&lt;img&gt;），一块儿引用文字就用引用标记（&lt;blockquote&gt;）。学习 HTML 语言，最开始就是去熟悉这些标记的意思与用法。
+
+
 
