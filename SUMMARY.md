@@ -8,5 +8,5 @@
 * [路径](path.md)
 * [样式](styles.md)
 * [脚本](scripts.md)
-* [resources](resources.md)
+* [相关资源](resources.md)
 
