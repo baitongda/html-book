@@ -20,5 +20,24 @@
 
 ## 编辑技巧
 
-编辑器安装了 Emmet 插件，输入 script:src ，按一下 tab，可以得到嵌入脚本文件用的 HTML 代码。
+编辑器安装了 Emmet 插件，输入 `script:src` ，按一下 tab，可以得到嵌入脚本文件用的 HTML 代码。
+
+## 练习
+
+在项目下面创建一个 scripts 目录，里面放一个脚本文件，名字是 main.js ，这个文件里的代码如下：
+
+```
+console.log('hello console ~')
+```
+
+然后把  main.js 嵌入到项目的 index.html 这个文档里面，位置放在 &lt;/body&gt; 标签的上面：
+
+```
+...
+    <script src="scripts/main.js"></script>
+</body>
+</html>
+```
+
+回到浏览器，打开浏览器的开发者工具，Console（控制台） 标签，观察在控制台上输出的文字，应该有一个 “hello console ~” 。
 
