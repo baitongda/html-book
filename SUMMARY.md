@@ -15,7 +15,7 @@
 * [路径](path.md)
 * [文档](document.md)
 
-## 常用标签
+## 标签
 
 * [样式](styles.md)
 * [脚本](scripts.md)
