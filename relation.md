@@ -32,3 +32,22 @@
 
 在上面的例子里，我们可以说这个 `<div>` 元素是 `<h1>` 的父元素，这个 `<h1>` 元素是这个 `<div>` 元素的子元素。
 
+## 兄弟
+
+元素之间的兄弟关系。
+
+例：
+
+```
+<div class="container">
+  <div class="card">
+    HTML
+  </div>
+  <div class="card">
+    CSS
+  </div>
+</div>
+```
+
+
+
