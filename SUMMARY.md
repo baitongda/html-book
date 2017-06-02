@@ -11,5 +11,5 @@
 * [相关资源](resources.md)
 * [div](div.md)
 * [&lt;p&gt;](p.md)
-* [h1-h6](h1-h6.md)
+* [&lt;h1&gt;..&lt;h6&gt;](h1-h6.md)
 
