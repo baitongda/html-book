@@ -41,10 +41,11 @@
 ```
 <div class="container">
   <div class="card">
-    HTML
+    <h2 class="header">权力的游戏</h2>
+    <div
   </div>
   <div class="card">
-    CSS
+    冰血暴
   </div>
 </div>
 ```
