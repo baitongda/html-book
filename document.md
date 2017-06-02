@@ -66,5 +66,13 @@
 <!-- 注释内容 -->
 ```
 
+## 练习
 
+编辑 index.html 文档的 head 里面的 title 标签里的内容，把 Document 换成 ninghao：
+
+```
+<title>ninghao</title>
+```
+
+保存文档，然后在浏览器上预览结果，观察浏览器标签上显示的文字的变化。
 
