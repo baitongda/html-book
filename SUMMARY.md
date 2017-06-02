@@ -6,8 +6,8 @@
 * [准备](prepare.md)
 * [Emmet](emmet.md)
 * [标签](tag.md)
-* [文档](document.md)
 * [路径](path.md)
+* [文档](document.md)
 
 ## 常用标签
 
