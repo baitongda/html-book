@@ -8,7 +8,7 @@
 .
 ├── index.html
 ├── images
-│   └── hulk.jpg
+│   └── hulk.jpg
 └── styles
     └── main.css
 ```
@@ -26,7 +26,14 @@ styles/main.css
 
 ## 绝对路径
 
-资源的绝对路径里一般包含 http 或 https 协议，还有网站的主机名。比如我们的项目在服务器上。
+资源的绝对路径里一般包含 http 或 https 协议，还有网站的主机名。比如我们的项目在服务器上的地址是 https://html.ninghao.net，也就是访问这个地址的时候打开的就是项目下面的 index.html，这样如果在 index.html 里面，要使用 hulk.jpg 与 main.css 的时候，这两个资源的绝对地址应该是：
+
+```
+https://html.ninghao.net/imageshulk.jpg
+https://html.ninghao.net/styles/main.css
+```
+
+ 
 
 
 
