@@ -16,6 +16,7 @@
 * [标题](h1-h6.md)
 * [段落](p.md)
 * [划分](div.md)
+* [Image](image.md)
 
 ## 附录
 
