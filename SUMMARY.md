@@ -14,11 +14,11 @@
 * [标签](tag.md)
 * [路径](path.md)
 * [文档](document.md)
+* [样式](styles.md)
+* [脚本](scripts.md)
 
 ## 标签
 
-* [样式](styles.md)
-* [脚本](scripts.md)
 * [标题](h1-h6.md)
 * [段落](p.md)
 * [划分](div.md)
