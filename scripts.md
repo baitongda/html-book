@@ -41,3 +41,5 @@ console.log('hello console ~')
 
 回到浏览器，打开浏览器的开发者工具，Console（控制台） 标签，观察在控制台上输出的文字，应该有一个 “hello console ~” 。
 
+![](/assets/js-hello-console.png)
+
