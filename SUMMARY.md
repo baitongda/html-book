@@ -7,5 +7,5 @@
 * [文档](document.md)
 * [路径](path.md)
 * [样式](styles.md)
-* [scripts](scripts.md)
+* [脚本](scripts.md)
 
