@@ -42,10 +42,9 @@
 <div class="container">
   <div class="card">
     <h2 class="header">权力的游戏</h2>
-    <div
   </div>
   <div class="card">
-    冰血暴
+    <h2 class="header">冰血暴</h2>
   </div>
 </div>
 ```
