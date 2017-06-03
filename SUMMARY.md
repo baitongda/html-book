@@ -20,6 +20,7 @@
 * [类别](class.md)
 * [标识](id.md)
 * [关系](relation.md)
+* [block-inline](block-inline.md)
 
 ## 标签
 
