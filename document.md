@@ -4,7 +4,7 @@
 
 无论是静态的 HTML 文件，还是后端服务生成的 HTML 文档，都有一个特定的文档结构。我们先认识一下这个结构，把下面代码放到项目下面的一个空白的 HTML 文档里：
 
-```
+```html
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -21,13 +21,13 @@
 
 几乎所有的 HTML 页面都是类似上面的结构。文档的最开始是一个文档的声明，说明一下这是一个 html 类型的文档：
 
-```
+```html
 <!DOCTYPE html>
 ```
 
 然后是一组 html 标签，它里面包装的是页面上的所有的内容。
 
-```
+```html
 <html lang="zh">
 
 </html>
@@ -41,7 +41,7 @@
 
 下面是两个在 head 部分常用的东西：
 
-```
+```html
     <meta charset="UTF-8">
     <title>Document</title>
 ```
@@ -52,7 +52,7 @@
 
 页面上显示的具体内容，都会放到 body 标签里面。
 
-```
+```html
 <body>
     <!-- 这里是页面的主体内容 -->
 </body>
@@ -62,7 +62,7 @@
 
 注释内容不会在页面上显示，浏览器会认为在 `<!--` 与`-->` 之间的东西是注释内容：
 
-```
+```html
 <!-- 注释内容 -->
 ```
 
@@ -70,7 +70,7 @@
 
 编辑 index.html 文档的 head 里面的 title 标签里的内容，把 Document 换成 ninghao：
 
-```
+```html
 <title>ninghao</title>
 ```
 
