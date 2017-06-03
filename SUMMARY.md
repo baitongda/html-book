@@ -18,7 +18,7 @@
 * [脚本](scripts.md)
 * [包装](wrapper.md)
 * [类别](class.md)
-* [ID](id.md)
+* [标识](id.md)
 * [关系](relation.md)
 
 ## 标签
