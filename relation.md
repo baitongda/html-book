@@ -8,7 +8,7 @@
 
 例 1：
 
-```
+```html
 <div>
   <h1>无题</h1>
 </div>
@@ -22,7 +22,7 @@
 
 例 2：
 
-```
+```html
 <div class="container">
   <div class="card">
   </div>
@@ -36,7 +36,7 @@
 
 例 3：
 
-```
+```html
 <div class="container">
   <div class="card">
     <div class="image">
@@ -58,6 +58,4 @@
 ```
 
 两个 .card 是 .container 的子元素，这两个 .card 元素是兄弟关系，每个 .card 里直接包装了 .image 与 .conent ，所以说 .card 是它们的父元素，.image 与 .content 是包装它们的 .card 元素的子元素。在 .card 元素里，我们可以说 .image 与 .content 它们之间是兄弟关系。
-
-
 
