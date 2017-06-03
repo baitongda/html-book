@@ -8,5 +8,17 @@ class 是用在 HTML 标签上的一个属性，在 HTML 语境下，class 表�
 <标签名 class="类别-1 类别-2 类别-3...">
 ```
 
+例 1：
+
+```html
+<button class="button">按钮</button>
+```
+
+例 2：
+
+```html
+<button class="big red button">按钮</button>
+```
+
 
 
