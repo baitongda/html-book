@@ -17,7 +17,7 @@
 * [样式](styles.md)
 * [脚本](scripts.md)
 * [包装](wrapper.md)
-* [Class 与 ID](class-id.md)
+* [Class](class.md)
 * [关系](relation.md)
 
 ## 标签
