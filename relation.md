@@ -2,21 +2,7 @@
 
 页面上的元素之间存在某种关系，我们来理解一下。
 
-## 包装与容器
-
-包装（wrapper），容器（container）。你可能会听到这样的话：“用一个包装元素”，“创建一个容器”，“先添加一个容器，它里面包装了一组 `<div>`” 。你应该理解这些话里提到的包装与容器是什么意思，在 HTML 这个语境下，其实它们表示的东西都差不多，指的就是把一个东西装到另一个东西里面，这里说的东西指的就是 HTML 里的元素，或者叫标签。
-
-因为元素之间是可以嵌套使用的，被嵌套的元素就是被包装的东西，或者叫容器里的内容。嵌套别人的那个元素就是一个包装，或者叫一个容器，因为它里面包装了或者叫嵌套了其它的东西。
-
-例：
-
-```
-<div>
-  <h1>无题</h1>
-</div>
-```
-
-在上面这个例子里，`<div>` 就是一个包装，或者叫容器。因为它里面包装了一个 `<h1>` 元素，或者叫它里面嵌套了一个 `<h1>` 元素。把一个`<h1>` 元素装到了一个 `<div>` 里面。
+## 
 
 ## 父与子
 
@@ -41,13 +27,37 @@
 ```
 <div class="container">
   <div class="card">
-    <h2 class="header">权力的游戏</h2>
   </div>
+
   <div class="card">
-    <h2 class="header">冰血暴</h2>
   </div>
 </div>
 ```
 
+一个带 .container 类的 `<div>` 元素，包装了两个带 .card 类的 `<div>` 元素。这两个带 .card 类的 `<div>` 元素，它们之间的关系就是兄弟，因为它们有一个共同的爸爸，就是带 .container 类的 `<div>` 元素。
 
+例：
+
+```
+<div class="container">
+  <div class="card">
+    <div class="image">
+      <img src="images/got.jpg" alt="got">
+    </div>
+    <div class="content">
+      <h2 class="header">权力的游戏</h2>
+    </div>
+  </div>
+  <div class="card">
+    <div class="image">
+      <img src="images/fargo.jpg" alt="fargo">
+    </div>
+    <div class="content">
+      <h2 class="header">冰血暴</h2>
+    </div>
+  </div>
+</div>
+```
+
+两个 .card 是 .container 的子元素，这两个 .card 元素是兄弟关系，每个 .card 里直接包装了 .image 与 .conent ，所以说 .card 是它们的父元素，.image 与 .content 是包装它们的 .card 元素的子元素。在 .card 元素里，我们可以说 .image 与 .content 它们之间是兄弟关系。
 
