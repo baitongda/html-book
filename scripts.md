@@ -10,7 +10,7 @@
 
 在页面上也可以直接嵌入一些脚本代码，把脚本放在一组 `<script>` 标签里面：
 
-```
+```html
 <script>
   // 这里是脚本内容
 </script>
@@ -28,13 +28,13 @@
 
 在项目下面创建一个 scripts 目录，里面放一个脚本文件，名字是 main.js ，这个文件里的代码如下：
 
-```
+```js
 console.log('hello console ~')
 ```
 
 然后把  main.js 嵌入到项目的 index.html 这个文档里面，位置放在 &lt;/body&gt; 标签的上面：
 
-```
+```html
 ...
     <script src="scripts/main.js"></script>
 </body>
